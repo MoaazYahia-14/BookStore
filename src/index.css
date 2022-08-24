@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131722;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Start NavBar Style */
+.navbar-brand
+{
+  color: cornflowerblue !important;
+}
+.navbar
+{
+  border-bottom: 2px solid #191f2f;
+  background-color: #131722be;
+  z-index: 999999999999999999999;
+}
+
+a{
+  color: white !important;
+}
+/* End NavBar Style */
+/* Start Get Start Style */
+.GetStartHeader h2
+{
+  font-size: 32px;
+}
+/* End Get Start Style */
+/* Start Home Style */
+.FS-14
+{
+  font-size: 14px;
+}
+.Badg
+{
+  width: 30px;
+  height: 30px;
+  background-color: cadetblue;
+  border-top-right-radius: 10px ;
+  border-bottom-left-radius: 10px ;
+  position: absolute;
+  z-index: 555555;
+  right: 5px;
+}
+.seeMore
+{
+  overflow: hidden;
+}
+.seeMore:hover .blurDesc
+{
+  cursor: pointer;
+  opacity: 0.6;
+  left: 0;
+}
+.blurDesc
+{
+  top: 0%;
+  left: -100%;
+  opacity: 0;
+  transition: all 0.5s;
+  background-color: black;
+}
+/* End Home Style */
+/* start Footer Style */
+footer
+{
+  border-top: 1px solid #191f2f;
+}
+/* End Footer Style */
